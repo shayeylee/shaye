@@ -1,0 +1,21 @@
+body{
+  font-family: "Courier New";
+}
+h1  {
+  /* this means that  we are selecting the h2 tag and applying style to it*/
+  color: hotpink; /*RGB form is allowed*/
+  font-size: 2em; /*Twice the height of the standard font*/
+}
+
+h2 {
+  color: palevioletred;
+}
+
+h3 {
+  color: lightpink;
+}
+
+p.special { /*just looking for paragraphs that are part of the special class*/
+  font-size: 1.2em;
+  color: #00f;
+}
